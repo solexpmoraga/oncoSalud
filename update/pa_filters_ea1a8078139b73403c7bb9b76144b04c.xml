@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_filters">
+    <pa_filters action="INSERT_OR_UPDATE">
+        <dimension display_value="OncoSalud Estados Válidos">fd460568139373403c7bb9b76144b0d1</dimension>
+        <filter/>
+        <roles/>
+        <sys_class_name>pa_filters</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-13 12:51:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea1a8078139b73403c7bb9b76144b04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OncoSalud por Estados Finalizados</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>pa_filters_ea1a8078139b73403c7bb9b76144b04c</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-13 12:51:22</sys_updated_on>
+        <title>OncoSalud por Estados Finalizados</title>
+    </pa_filters>
+</record_update>

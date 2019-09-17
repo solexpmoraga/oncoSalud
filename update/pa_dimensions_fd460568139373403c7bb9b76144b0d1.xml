@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="sys_choice">name=x_snc_oncosalud_programa^element=u_string_3^language=en^labelINAnulado,Pagado,Rechazado<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="x_snc_oncosalud_programa"/>
+            <item endquery="false" field="element" goto="false" newquery="false" operator="=" or="false" value="u_string_3"/>
+            <item endquery="false" field="language" goto="false" newquery="false" operator="=" or="false" value="en"/>
+            <item endquery="false" field="label" goto="false" newquery="false" operator="IN" or="false" value="Anulado,Pagado,Rechazado"/>
+        </conditions>
+        <description>OncoSalud Estados Válidos</description>
+        <empty_value/>
+        <facts_table>sys_choice</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown/>
+        <name>OncoSalud Estados Válidos</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-12 22:36:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd460568139373403c7bb9b76144b0d1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>OncoSalud Estados Válidos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>pa_dimensions_fd460568139373403c7bb9b76144b0d1</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:50:16</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd460568139373403c7bb9b76144b0d1"/>
+</record_update>

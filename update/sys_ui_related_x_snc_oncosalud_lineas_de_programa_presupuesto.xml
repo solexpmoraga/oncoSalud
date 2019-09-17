@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_oncosalud_lineas_de_programa" version="2" view="Presupuesto">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Línea de Programa - Presupuesto" name="x_snc_oncosalud_lineas_de_programa" related_list="NULL" sys_domain="global" view="e984789c13cbb700959370d66144b057">df26da5d1343bb00959370d66144b037</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-03 02:04:12</sys_created_on>
+            <sys_id>5726da5d1343bb00959370d66144b039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-03 02:04:12</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Línea de Programa - Presupuesto</calculated_name>
+            <filter/>
+            <name>x_snc_oncosalud_lineas_de_programa</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-03 02:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df26da5d1343bb00959370d66144b037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Línea de Programa - Presupuesto</sys_name>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_oncosalud_lineas_de_programa_Presupuesto</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-03 02:04:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Presupuesto" name="Presupuesto">e984789c13cbb700959370d66144b057</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

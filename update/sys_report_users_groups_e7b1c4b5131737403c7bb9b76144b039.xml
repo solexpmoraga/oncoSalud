@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Total Presupuestos OncoSalud">63b1c4b5131737403c7bb9b76144b039</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-16 14:48:21</sys_created_on>
+        <sys_id>e7b1c4b5131737403c7bb9b76144b039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>63b1c4b5131737403c7bb9b76144b039</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_report_users_groups_e7b1c4b5131737403c7bb9b76144b039</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-16 14:48:21</sys_updated_on>
+        <user_id display_value="Pablo Moraga">12024b58137af7403c7bb9b76144b059</user_id>
+    </sys_report_users_groups>
+</record_update>

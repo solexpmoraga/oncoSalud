@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-07-30 15:56:47</sys_created_on>
+        <sys_id>d06eec1813cbb700959370d66144b016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_oncosalud_acci_n.x_snc_oncosalud.acci_n_user</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_security_acl display_value="x_snc_oncosalud_acci_n">d86eac1813cbb700959370d66144b0d3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d06eec1813cbb700959370d66144b016</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-07-30 15:56:47</sys_updated_on>
+        <sys_user_role display_value="x_snc_oncosalud.acci_n_user" name="x_snc_oncosalud.acci_n_user">886eac1813cbb700959370d66144b0af</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>actualizacion_de_presupuesto</internal_name>
+        <label_cache>[{"name":"d4190798-185b-4db5-b6bd-f3f52889c586.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"d4190798-185b-4db5-b6bd-f3f52889c586.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"4d79e310-baa8-4484-8abd-5341e75a1da9.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"4d79e310-baa8-4484-8abd-5341e75a1da9.Table","label":"2➛Acción Table","reference":"x_snc_oncosalud_acci_n","reference_display":"Acción","type":"table_name","base_type":"table_name"},{"name":"4d79e310-baa8-4484-8abd-5341e75a1da9.Records","label":"2➛Acción Records","reference":"x_snc_oncosalud_acci_n","reference_display":"Acción","type":"records","base_type":"records"},{"name":"30d525db-a631-464f-9464-564509a99f24.table_name","label":"3.1➛Programa Table","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"table_name","base_type":"table_name"},{"name":"30d525db-a631-464f-9464-564509a99f24.record","label":"3.1➛Programa Record","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"reference","base_type":"reference"},{"name":"f8a31217-ee76-4b31-ad9d-401e1e18fff7.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"f8a31217-ee76-4b31-ad9d-401e1e18fff7.Table","label":"1➛Acción Table","reference":"x_snc_oncosalud_acci_n","reference_display":"Acción","type":"table_name","base_type":"table_name"},{"name":"f8a31217-ee76-4b31-ad9d-401e1e18fff7.Records","label":"1➛Acción Records","reference":"x_snc_oncosalud_acci_n","reference_display":"Acción","type":"records","base_type":"records"},{"name":"474ce74a-e7b8-44c3-bf40-8e95a1a5fb6f.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"474ce74a-e7b8-44c3-bf40-8e95a1a5fb6f.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"ffbc6ba2-187d-4f24-a150-23f6fdd2fb78.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"ffbc6ba2-187d-4f24-a150-23f6fdd2fb78.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"ffbc6ba2-187d-4f24-a150-23f6fdd2fb78.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"Updated_1.current.programa","label":"Trigger➛Acción Record➛Programa","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"reference","base_type":"reference","parent_table_name":"x_snc_oncosalud_acci_n","column_name":"programa"},{"name":"Updated_1.current","label":"Trigger➛Acción Record","reference":"x_snc_oncosalud_acci_n","reference_display":"Acción","type":"reference","base_type":"reference"},{"name":"Updated_1.table_name","label":"Trigger➛Acción Table","reference":"x_snc_oncosalud_acci_n","reference_display":"Acción","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>a48333fc13cb3b00959370d66144b08b</latest_snapshot>
+        <master_snapshot>b2fc6fb413cb3b00959370d66144b041</master_snapshot>
+        <name>Actualizacion de presupuesto</name>
+        <outputs/>
+        <remote_trigger_id>c7fc6fb413cb3b00959370d66144b0c8</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 18:34:03</sys_created_on>
+        <sys_id>6385273013cb3b00959370d66144b090</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Actualizacion de presupuesto</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_flow_6385273013cb3b00959370d66144b090</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:24:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6385273013cb3b00959370d66144b090"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6385273013cb3b00959370d66144b090"/>
+</record_update>

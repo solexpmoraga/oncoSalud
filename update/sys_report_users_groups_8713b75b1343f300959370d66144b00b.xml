@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Presupuestos vencidos">0313b75b1343f300959370d66144b00b</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-09 13:58:05</sys_created_on>
+        <sys_id>8713b75b1343f300959370d66144b00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0313b75b1343f300959370d66144b00b</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_report_users_groups_8713b75b1343f300959370d66144b00b</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-09 13:58:05</sys_updated_on>
+        <user_id display_value="slx os">1717160e13ae73403c7bb9b76144b004</user_id>
+    </sys_report_users_groups>
+</record_update>

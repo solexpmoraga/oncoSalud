@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-07-29 15:26:36</sys_created_on>
+        <sys_id>97cd97f7133e7700959370d66144b0c7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_ui_formatter_97cd97f7133e7700959370d66144b0c7</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-07-29 15:32:59</sys_updated_on>
+        <table>x_snc_oncosalud_programa</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

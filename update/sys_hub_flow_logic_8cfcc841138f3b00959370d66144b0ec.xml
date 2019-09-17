@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">04fcc841138f3b00959370d66144b0eb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="OncoSalud Creacion Presupuesto">9b10540c138f7700959370d66144b094</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 21:26:07</sys_created_on>
+        <sys_id>8cfcc841138f3b00959370d66144b0ec</sys_id>
+        <sys_mod_count>81</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_8cfcc841138f3b00959370d66144b0ec</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-19 15:25:42</sys_updated_on>
+        <ui_id>0c349c91-cd39-40ed-9c9e-07825172ff31</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8cfcc841138f3b00959370d66144b0ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8cfcc841138f3b00959370d66144b0ec</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 21:26:07</sys_created_on>
+        <sys_id>80fcc841138f3b00959370d66144b0fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 21:26:07</sys_updated_on>
+        <value>Tiene seguro?</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8cfcc841138f3b00959370d66144b0ec</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 21:26:07</sys_created_on>
+        <sys_id>ccfcc841138f3b00959370d66144b0fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 21:26:07</sys_updated_on>
+        <value>{{Created_1.current.cliente.seguro.compania}}!=</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

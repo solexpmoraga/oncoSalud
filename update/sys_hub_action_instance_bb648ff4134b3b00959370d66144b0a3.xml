@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="OncoSalud Creacion Presupuesto">9b10540c138f7700959370d66144b094</flow>
+        <order>1.1</order>
+        <parent_ui_id>0a2c7a30-7027-4e3b-955b-225bf1906423</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:09:21</sys_created_on>
+        <sys_id>bb648ff4134b3b00959370d66144b0a3</sys_id>
+        <sys_mod_count>196</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_action_instance_bb648ff4134b3b00959370d66144b0a3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-19 15:25:41</sys_updated_on>
+        <ui_id>4cf69529-8bc0-4da9-b604-049c1c01b1e5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb648ff4134b3b00959370d66144b0a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb648ff4134b3b00959370d66144b0a3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:20:57</sys_created_on>
+        <sys_id>311743b8134b3b00959370d66144b063</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:20:57</sys_updated_on>
+        <value>x_snc_oncosalud_acci_n</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb648ff4134b3b00959370d66144b0a3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:11:28</sys_created_on>
+        <sys_id>bae40738134b3b00959370d66144b0bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:11:28</sys_updated_on>
+        <value>x_snc_oncosalud_acci_n</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb648ff4134b3b00959370d66144b0a3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:11:28</sys_created_on>
+        <sys_id>f6e40738134b3b00959370d66144b0bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:19:45</sys_updated_on>
+        <value/>
+        <variable display_value="">8b52fc8cc3c632002841b63b12d3ae36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb648ff4134b3b00959370d66144b0a3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bb648ff4134b3b00959370d66144b0a3</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:11:27</sys_created_on>
+        <sys_id>bee40738134b3b00959370d66144b0ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:11:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bb648ff4134b3b00959370d66144b0a3</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:20:57</sys_created_on>
+        <sys_id>f91743b8134b3b00959370d66144b062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:20:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bb648ff4134b3b00959370d66144b0a3</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:11:28</sys_created_on>
+        <sys_id>76e40738134b3b00959370d66144b0bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:19:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>programa={{Created_1.current}}^short_description=Revisar stock farmacia^description=Revisar stock farmacia</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bb648ff4134b3b00959370d66144b0a3</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-01 16:20:57</sys_created_on>
+        <sys_id>bd1743b8134b3b00959370d66144b062</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-19 15:22:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>programa={{Created_1.current}}^short_description=Revisar stock farmacia^description=Revisar stock farmacia^assignment_group={"display":"Farmacia","value":"e5f0f91c1343b7003c7bb9b76144b0a3"}^assigned_to={"display":"Farmacéutico1 Farmacia","value":"fa41715c1343b7003c7bb9b76144b066"}</value>
+    </sys_element_mapping>
+</record_update>

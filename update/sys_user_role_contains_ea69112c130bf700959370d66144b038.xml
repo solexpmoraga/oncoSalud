@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_snc_oncosalud.lineas_de_programa_user" name="x_snc_oncosalud.lineas_de_programa_user">df8e5f5c133a7b40959370d66144b046</contains>
+        <role display_value="x_snc_oncosalud.oncosalud_basico" name="x_snc_oncosalud.oncosalud_basico">7ccb7d941383b7003c7bb9b76144b053</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-07-31 13:43:17</sys_created_on>
+        <sys_id>ea69112c130bf700959370d66144b038</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_oncosalud.lineas_de_programa_user.x_snc_oncosalud.oncosalud_basico</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_user_role_contains_ea69112c130bf700959370d66144b038</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-07-31 13:43:17</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

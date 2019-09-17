@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Crea un Presupuesto médico</comments>
+        <condition>current.tipo == "Programa" &amp;&amp; current.u_string_3=="Creado" &amp;&amp; (gs.hasRole("x_snc_oncosalud.auditoria") || gs.hasRole("x_snc_oncosalud.presupuestos"))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint>Para crear una cotización a la fecha de hoy. Esto enviará un correo automático al paciente con los detalles de precios y prestaciones al día de hoy.</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Crear Presupuesto</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[programa = new GlideRecord('x_snc_oncosalud_programa');
+programa.get(current.sys_id);
+
+var dia = new GlideDateTime();
+//	gs.addInfoMessage(dia);
+dia.addDaysUTC(2);
+
+var paciente = programa.cliente;
+var cargos = programa.u_float_1;
+var tot_desc = programa.total_descuentos;
+var numero = programa.number;
+var grantotal = programa.gran_total;
+
+var dni = paciente.dni;
+var nombre = paciente.nombre;
+var apellido = paciente.apellido;
+var fecha_nac = paciente.fecha_nacimiento;
+var fecha_creac = current.u_glide_date_2;
+
+var id_med = paciente.medico_tratante.user_name;
+var seguro = paciente.seguro.compania;
+var plan_seguro = paciente.seguro.nombre;
+
+
+current.setValue('tipo', 'Presupuesto');
+current.setValue('due_date', dia);
+current.setValue('user', gs.getUser());
+//current.setValue('number', numero.replace(/O/, "E"));
+current.setValue('number', '');
+
+current.setValue('u_float_1', cargos);
+current.setValue('gran_total', grantotal);
+current.insert();
+current.setValue('number', current.number.replace(/O/, "E"));
+current.update();
+
+
+
+var lin_prog = new GlideRecord('x_snc_oncosalud_lineas_de_programa');
+lin_prog.addQuery('programa', programa.sys_id);
+lin_prog.query();
+
+
+while (lin_prog.next()){
+	var linprograma = new GlideRecord('x_snc_oncosalud_lineas_de_programa');
+	linprograma.get(lin_prog.sys_id);
+	
+    linprograma.setValue('programa', current.sys_id);
+	linprograma.setValue('tipo', 'Presupuesto');
+	numero_col = linprograma.getValue('number');	
+	linprograma.setValue('number', numero_col.replace(/PR/, "PP"));
+	
+	linprograma.insert();
+}
+
+
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-07-23 13:42:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e14c8cce13f233003c7bb9b76144b094</sys_id>
+        <sys_mod_count>227</sys_mod_count>
+        <sys_name>Crear Presupuesto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_ui_action_e14c8cce13f233003c7bb9b76144b094</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-16 13:21:17</sys_updated_on>
+        <table>x_snc_oncosalud_programa</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

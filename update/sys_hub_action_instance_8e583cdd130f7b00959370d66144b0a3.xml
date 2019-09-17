@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of OncoSalud Creacion Presupuesto">dd583cdd130f7b00959370d66144b01a</flow>
+        <order>5.1</order>
+        <parent_ui_id>f5fddac7-f656-4c71-8a00-3a79651a4709</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>8e583cdd130f7b00959370d66144b0a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_action_instance_8e583cdd130f7b00959370d66144b0a3</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <ui_id>9bcc793f-bf0a-46cb-8a87-ac54f575fe5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8e583cdd130f7b00959370d66144b0a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e583cdd130f7b00959370d66144b0a3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>c2583cdd130f7b00959370d66144b0a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <value>x_snc_oncosalud_lineas_de_programa</value>
+        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8e583cdd130f7b00959370d66144b0a3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8e583cdd130f7b00959370d66144b0a3</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>8e583cdd130f7b00959370d66144b0a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value>programa={{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>8e583cdd130f7b00959370d66144b0a3</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>42583cdd130f7b00959370d66144b0a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c66eb714133ef7403c7bb9b76144b0b7" sys_domain="global" table="x_snc_oncosalud_programa" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-29 15:27:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f22edbf7133e7700959370d66144b007</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_oncosalud_programa" name="x_snc_oncosalud_programa" sys_domain="global" view="Default view">c66eb714133ef7403c7bb9b76144b0b7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_programa" sys_domain="global" view="Default view">362e5bf7133e7700959370d66144b08f</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-29 15:27:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-07-18 20:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e6eb714133ef7403c7bb9b76144b0b9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_oncosalud_programa" name="x_snc_oncosalud_programa" sys_domain="global" view="Default view">c66eb714133ef7403c7bb9b76144b0b7</sys_ui_form>
+            <sys_ui_section caption="Programa Médico" display_value="Programa Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="Default view">3c9bef94137a7b40959370d66144b0ec</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-29 15:27:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_oncosalud_programa</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-07-18 20:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c66eb714133ef7403c7bb9b76144b0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_oncosalud_programa</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c66eb714133ef7403c7bb9b76144b0b7</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-07-18 20:49:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

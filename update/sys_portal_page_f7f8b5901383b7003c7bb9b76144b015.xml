@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-09-17 15:12:41">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-07-30 21:22:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7f8b5901383b7003c7bb9b76144b015</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_portal_page_f7f8b5901383b7003c7bb9b76144b015</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-07-30 21:22:48</sys_updated_on>
+        <title>PA New Tab</title>
+        <user/>
+        <view>pa_new_tab_25</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">f7f8b5901383b7003c7bb9b76144b015</page>
+                <summary>Total Presupuestos</summary>
+                <sys_created_by>slx.pm</sys_created_by>
+                <sys_created_on>2019-08-05 21:46:25</sys_created_on>
+                <sys_id>18f7705213c3fb003c7bb9b76144b05b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>slx.pm</sys_updated_by>
+                <sys_updated_on>2019-08-05 21:46:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/08/2019 17:46:25">18f7705213c3fb003c7bb9b76144b05b</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-08-05 21:46:25</sys_created_on>
+                        <sys_id>10f7705213c3fb003c7bb9b76144b05d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-08-05 21:46:25</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/08/2019 17:46:25">18f7705213c3fb003c7bb9b76144b05b</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-08-05 21:46:25</sys_created_on>
+                        <sys_id>50f7705213c3fb003c7bb9b76144b05c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-08-05 21:46:25</sys_updated_on>
+                        <value>3de8470a134fbb003c7bb9b76144b00f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/08/2019 17:46:25">18f7705213c3fb003c7bb9b76144b05b</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-08-05 21:46:25</sys_created_on>
+                        <sys_id>5cf7705213c3fb003c7bb9b76144b05c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-08-05 21:46:25</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/08/2019 17:46:25">18f7705213c3fb003c7bb9b76144b05b</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-08-05 21:46:25</sys_created_on>
+                        <sys_id>94f7705213c3fb003c7bb9b76144b05d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-08-05 21:46:25</sys_updated_on>
+                        <value>Total Presupuestos</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/08/2019 17:46:25">18f7705213c3fb003c7bb9b76144b05b</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-08-05 21:46:25</sys_created_on>
+                        <sys_id>98f7705213c3fb003c7bb9b76144b05c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-08-05 21:46:25</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/08/2019 17:46:25">18f7705213c3fb003c7bb9b76144b05b</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-08-05 21:46:25</sys_created_on>
+                        <sys_id>d0f7705213c3fb003c7bb9b76144b05d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-08-05 21:46:25</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">f7f8b5901383b7003c7bb9b76144b015</page>
+                <summary>Mis acciones pendientes de resolución</summary>
+                <sys_created_by>slx.pm</sys_created_by>
+                <sys_created_on>2019-07-30 21:25:19</sys_created_on>
+                <sys_id>389971141383b7003c7bb9b76144b018</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>slx.pm</sys_updated_by>
+                <sys_updated_on>2019-07-30 21:28:59</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 30/07/2019 17:25:19">389971141383b7003c7bb9b76144b018</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:25:20</sys_created_on>
+                        <sys_id>389971141383b7003c7bb9b76144b019</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:25:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 30/07/2019 17:25:19">389971141383b7003c7bb9b76144b018</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:25:19</sys_created_on>
+                        <sys_id>3c9971141383b7003c7bb9b76144b018</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:28:59</sys_updated_on>
+                        <value>d66af5541383b7003c7bb9b76144b023</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 30/07/2019 17:25:19">389971141383b7003c7bb9b76144b018</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:25:19</sys_created_on>
+                        <sys_id>749971141383b7003c7bb9b76144b019</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:25:19</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 30/07/2019 17:25:19">389971141383b7003c7bb9b76144b018</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:25:19</sys_created_on>
+                        <sys_id>b09971141383b7003c7bb9b76144b019</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:25:19</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 30/07/2019 17:25:19">389971141383b7003c7bb9b76144b018</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:25:20</sys_created_on>
+                        <sys_id>f89971141383b7003c7bb9b76144b019</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:28:59</sys_updated_on>
+                        <value>Mis acciones pendientes de resolución</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">f7f8b5901383b7003c7bb9b76144b015</page>
+                <summary>#New Report</summary>
+                <sys_created_by>slx.os</sys_created_by>
+                <sys_created_on>2019-08-08 22:07:23</sys_created_on>
+                <sys_id>89895c13130bb300959370d66144b021</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>slx.os</sys_updated_by>
+                <sys_updated_on>2019-08-08 22:07:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 08/08/2019 18:07:23">89895c13130bb300959370d66144b021</portal_section>
+                        <sys_created_by>slx.os</sys_created_by>
+                        <sys_created_on>2019-08-08 22:07:23</sys_created_on>
+                        <sys_id>05895c13130bb300959370d66144b022</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.os</sys_updated_by>
+                        <sys_updated_on>2019-08-08 22:07:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 08/08/2019 18:07:23">89895c13130bb300959370d66144b021</portal_section>
+                        <sys_created_by>slx.os</sys_created_by>
+                        <sys_created_on>2019-08-08 22:07:23</sys_created_on>
+                        <sys_id>4d895c13130bb300959370d66144b022</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.os</sys_updated_by>
+                        <sys_updated_on>2019-08-08 22:07:23</sys_updated_on>
+                        <value>#New Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 08/08/2019 18:07:23">89895c13130bb300959370d66144b021</portal_section>
+                        <sys_created_by>slx.os</sys_created_by>
+                        <sys_created_on>2019-08-08 22:07:23</sys_created_on>
+                        <sys_id>89895c13130bb300959370d66144b022</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.os</sys_updated_by>
+                        <sys_updated_on>2019-08-08 22:07:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 08/08/2019 18:07:23">89895c13130bb300959370d66144b021</portal_section>
+                        <sys_created_by>slx.os</sys_created_by>
+                        <sys_created_on>2019-08-08 22:07:23</sys_created_on>
+                        <sys_id>8d895c13130bb300959370d66144b021</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.os</sys_updated_by>
+                        <sys_updated_on>2019-08-08 22:07:23</sys_updated_on>
+                        <value>-1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 08/08/2019 18:07:23">89895c13130bb300959370d66144b021</portal_section>
+                        <sys_created_by>slx.os</sys_created_by>
+                        <sys_created_on>2019-08-08 22:07:23</sys_created_on>
+                        <sys_id>c5895c13130bb300959370d66144b022</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.os</sys_updated_by>
+                        <sys_updated_on>2019-08-08 22:07:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="PA New Tab">f7f8b5901383b7003c7bb9b76144b015</page>
+                <summary>New Page</summary>
+                <sys_created_by>slx.pm</sys_created_by>
+                <sys_created_on>2019-07-30 21:22:48</sys_created_on>
+                <sys_id>cc09b5901383b7003c7bb9b76144b01e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>slx.pm</sys_updated_by>
+                <sys_updated_on>2019-07-30 21:22:48</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 30/07/2019 17:22:48">cc09b5901383b7003c7bb9b76144b01e</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:22:48</sys_created_on>
+                        <sys_id>0809b5901383b7003c7bb9b76144b01f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:22:48</sys_updated_on>
+                        <value>New Page</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 30/07/2019 17:22:48">cc09b5901383b7003c7bb9b76144b01e</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:22:48</sys_created_on>
+                        <sys_id>4409b5901383b7003c7bb9b76144b01f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:22:48</sys_updated_on>
+                        <value>new</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 30/07/2019 17:22:48">cc09b5901383b7003c7bb9b76144b01e</portal_section>
+                        <sys_created_by>slx.pm</sys_created_by>
+                        <sys_created_on>2019-07-30 21:22:48</sys_created_on>
+                        <sys_id>8009b5901383b7003c7bb9b76144b01f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>slx.pm</sys_updated_by>
+                        <sys_updated_on>2019-07-30 21:22:48</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderGadget</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

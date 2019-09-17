@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="motivo" label="Motivo" language="en" table="x_snc_oncosalud_programa">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>motivo</element>
+            <help/>
+            <hint/>
+            <label>Motivo</label>
+            <language>en</language>
+            <name>x_snc_oncosalud_programa</name>
+            <plural>Motivos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-02 13:07:09</sys_created_on>
+            <sys_id>f854a3c1130b7b00959370d66144b028</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Motivo</sys_name>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_oncosalud_programa_motivo_en</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-02 13:07:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

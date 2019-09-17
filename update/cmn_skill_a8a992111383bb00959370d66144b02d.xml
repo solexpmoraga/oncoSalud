@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill">
+    <cmn_skill action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Sólida y actualizada formación en los principios y la práctica de la oncología, en particular sobre el tratamiento sistémico del cáncer, como parte del manejo interdisciplinario de los pacientes oncológicos. Por otro lado, que esté comprometido con el desarrollo de la atención de salud hacia los pacientes con cáncer en Chile, y que sea capaz de desempeñarse en distintos niveles de complejidad de la atención oncológica y manejo de recursos disponibles para llevarla a cabo. Se fomentará el desarrollo de habilidades comunicacionales; será capacitado para manejar conversaciones difíciles con pacientes y/o familiares, y asimismo, integrarse a equipos de trabajo interdisciplinarios.</description>
+        <name>Oncólogo Médico</name>
+        <sys_class_name>cmn_skill</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-03 02:20:03</sys_created_on>
+        <sys_id>a8a992111383bb00959370d66144b02d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oncólogo Médico</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>cmn_skill_a8a992111383bb00959370d66144b02d</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-03 02:20:03</sys_updated_on>
+    </cmn_skill>
+</record_update>

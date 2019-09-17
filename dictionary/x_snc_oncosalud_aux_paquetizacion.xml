@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Elemento del Paquete" max_length="40" name="x_snc_oncosalud_aux_paquetizacion" type="collection">
+        <element label="paquetizacion" max_length="32" name="paquetizacion" reference="x_snc_oncosalud_paquetizacion" type="reference"/>
+        <element label="tarifario" max_length="32" name="tarifario" reference="x_snc_oncosalud_tarifario" type="reference"/>
+        <index name="index">
+            <element name="paquetizacion"/>
+        </index>
+        <index name="index2">
+            <element name="tarifario"/>
+        </index>
+    </element>
+</database>

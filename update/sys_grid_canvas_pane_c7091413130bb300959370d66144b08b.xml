@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">aa091413130bb300959370d66144b03a</grid_canvas>
+        <height>3</height>
+        <portal_widget display_value="Created 08/08/2019 18:05:20">7e091413130bb300959370d66144b05e</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-08 22:05:21</sys_created_on>
+        <sys_id>c7091413130bb300959370d66144b08b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>aa091413130bb300959370d66144b03a</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_c7091413130bb300959370d66144b08b</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-08 22:06:23</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

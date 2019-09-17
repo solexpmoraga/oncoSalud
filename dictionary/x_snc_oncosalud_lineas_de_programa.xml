@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Línea de Programa" max_length="40" name="x_snc_oncosalud_lineas_de_programa" type="collection">
+        <element default="1" label="Cantidad" mandatory="true" max_length="40" name="cantidad" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Paquete" max_length="35" name="paquete" type="string"/>
+        <element label="Paquetizacion" max_length="32" name="paquetizacion" reference="x_snc_oncosalud_paquetizacion" type="reference"/>
+        <element label="Programa" max_length="32" name="programa" reference="x_snc_oncosalud_programa" type="reference"/>
+        <element display="true" label="Tarificacion" max_length="32" name="tarificacion" reference="x_snc_oncosalud_tarifario" type="reference"/>
+        <element default="Programa" label="Tipo" max_length="30" name="tipo" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.tarificacion.precio_unitario * current.cantidad;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total" max_length="40" name="total" type="float" virtual="true"/>
+        <index name="index">
+            <element name="paquetizacion"/>
+        </index>
+        <index name="index2">
+            <element name="tarificacion"/>
+        </index>
+        <index name="index3">
+            <element name="programa"/>
+        </index>
+        <index name="index4">
+            <element name="paquete"/>
+        </index>
+    </element>
+</database>

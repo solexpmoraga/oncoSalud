@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_oncosalud_cliente" version="2" view="viewtest">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>apellido</element>
+            <list_id display_value="x_snc_oncosalud_cliente" element="NULL" name="x_snc_oncosalud_cliente" parent="NULL" relationship="NULL" sys_domain="global" view="c07f96e0130ff700959370d66144b062">e07f5ae0130ff700959370d66144b02d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-31 18:49:15</sys_created_on>
+            <sys_id>2c7f5ae0130ff700959370d66144b02d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-31 18:49:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dni</element>
+            <list_id display_value="x_snc_oncosalud_cliente" element="NULL" name="x_snc_oncosalud_cliente" parent="NULL" relationship="NULL" sys_domain="global" view="c07f96e0130ff700959370d66144b062">e07f5ae0130ff700959370d66144b02d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-31 18:49:15</sys_created_on>
+            <sys_id>ac7f5ae0130ff700959370d66144b02d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-31 18:49:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fecha_nacimiento</element>
+            <list_id display_value="x_snc_oncosalud_cliente" element="NULL" name="x_snc_oncosalud_cliente" parent="NULL" relationship="NULL" sys_domain="global" view="c07f96e0130ff700959370d66144b062">e07f5ae0130ff700959370d66144b02d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-31 18:49:15</sys_created_on>
+            <sys_id>207f5ae0130ff700959370d66144b02e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-31 18:49:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>medico_tratante</element>
+            <list_id display_value="x_snc_oncosalud_cliente" element="NULL" name="x_snc_oncosalud_cliente" parent="NULL" relationship="NULL" sys_domain="global" view="c07f96e0130ff700959370d66144b062">e07f5ae0130ff700959370d66144b02d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-31 18:49:15</sys_created_on>
+            <sys_id>a07f5ae0130ff700959370d66144b02e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-31 18:49:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>nombre</element>
+            <list_id display_value="x_snc_oncosalud_cliente" element="NULL" name="x_snc_oncosalud_cliente" parent="NULL" relationship="NULL" sys_domain="global" view="c07f96e0130ff700959370d66144b062">e07f5ae0130ff700959370d66144b02d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-31 18:49:15</sys_created_on>
+            <sys_id>247f5ae0130ff700959370d66144b02e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-31 18:49:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>seguro</element>
+            <list_id display_value="x_snc_oncosalud_cliente" element="NULL" name="x_snc_oncosalud_cliente" parent="NULL" relationship="NULL" sys_domain="global" view="c07f96e0130ff700959370d66144b062">e07f5ae0130ff700959370d66144b02d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-31 18:49:15</sys_created_on>
+            <sys_id>a47f5ae0130ff700959370d66144b02e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-31 18:49:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_oncosalud_cliente</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-31 18:49:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e07f5ae0130ff700959370d66144b02d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_oncosalud_cliente</sys_name>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_oncosalud_cliente_viewtest</sys_update_name>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-31 18:49:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="viewtest" name="viewtest">c07f96e0130ff700959370d66144b062</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

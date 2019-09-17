@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Se envia un correo al cliente</comment>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of OncoSalud Creacion Presupuesto">dd583cdd130f7b00959370d66144b01a</flow>
+        <order>5.2</order>
+        <parent_ui_id>f5fddac7-f656-4c71-8a00-3a79651a4709</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>0e583cdd130f7b00959370d66144b0ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_action_instance_0e583cdd130f7b00959370d66144b0ac</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <ui_id>69d6a918-7509-444d-bd87-0070e22e9031</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0e583cdd130f7b00959370d66144b0ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e583cdd130f7b00959370d66144b0ac</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>8e583cdd130f7b00959370d66144b0b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0e583cdd130f7b00959370d66144b0ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>0e583cdd130f7b00959370d66144b0ac</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>0e583cdd130f7b00959370d66144b0b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="de8d992c-88f3-41e4-b228-c8495cf050f9" data-pillvalue="{{648ef3f2-70af-49c4-8240-7b2eba888461.record}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="de8d992c-88f3-41e4-b228-c8495cf050f9" data-pillvalue="{{648ef3f2-70af-49c4-8240-7b2eba888461.record}}"&gt;4➛Programa Record&lt;/span&gt;&lt;/span&gt;Estimado paciente&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="b225914b-6e2d-46f9-b1f7-7547a2a95c8e" data-pillvalue="{{Created_1.current.cliente.nombre}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="b225914b-6e2d-46f9-b1f7-7547a2a95c8e" data-pillvalue="{{Created_1.current.cliente.nombre}}"&gt;Trigger➛Programa Record➛DNI Paciente➛Nombre&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="999f336f-1679-43ca-9f0a-bef30979b2ee" data-pillvalue="{{Created_1.current.cliente.apellido}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="999f336f-1679-43ca-9f0a-bef30979b2ee" data-pillvalue="{{Created_1.current.cliente.apellido}}"&gt;Trigger➛Programa Record➛DNI Paciente➛Apellido&lt;/span&gt;&lt;/span&gt;: Su presupuesto es&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="e6540289-bed9-486f-b46c-b818197b67b0" data-pillvalue="{{Created_1.current.u_float_1}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="e6540289-bed9-486f-b46c-b818197b67b0" data-pillvalue="{{Created_1.current.u_float_1}}"&gt;Trigger➛Programa Record➛Total Cargos&lt;/span&gt;&lt;/span&gt;, del cual ser&amp;aacute; aplicado un decuento de:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="3fb4d57d-7727-4c83-be4c-8ab920a118a9" data-pillvalue="{{Created_1.current.total_descuentos}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="3fb4d57d-7727-4c83-be4c-8ab920a118a9" data-pillvalue="{{Created_1.current.total_descuentos}}"&gt;Trigger➛Programa Record➛Total Descuentos&lt;/span&gt;&lt;/span&gt;, quedando en un total de:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="21c8e203-f1d8-4efd-9863-807defe1fea0" data-pillvalue="{{Created_1.current.gran_total}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="21c8e203-f1d8-4efd-9863-807defe1fea0" data-pillvalue="{{Created_1.current.gran_total}}"&gt;Trigger➛Programa Record➛Gran Total&lt;/span&gt;&lt;/span&gt; aproximado a pagar.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;El detalle a continuacion:&lt;/p&gt;
+&lt;table style="border-color: black; width: 500px;" border="1" cellspacing="3" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Motivo&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Paciente:&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="a5012c2f-3eba-4543-8275-3bf54815fcd2" data-pillvalue="{{Created_1.current.cliente.nombre}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="a5012c2f-3eba-4543-8275-3bf54815fcd2" data-pillvalue="{{Created_1.current.cliente.nombre}}"&gt;Trigger➛Programa Record➛DNI Paciente➛Nombre&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="53e36a1f-feab-49e4-a1a1-c4fb89777343" data-pillvalue="{{Created_1.current.cliente.apellido}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="53e36a1f-feab-49e4-a1a1-c4fb89777343" data-pillvalue="{{Created_1.current.cliente.apellido}}"&gt;Trigger➛Programa Record➛DNI Paciente➛Apellido&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DNI:&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="29e40015-62f2-431d-974d-1ceed756b276" data-pillvalue="{{Created_1.current.cliente.dni}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="29e40015-62f2-431d-974d-1ceed756b276" data-pillvalue="{{Created_1.current.cliente.dni}}"&gt;Trigger➛Programa Record➛DNI Paciente➛DNI&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Compa&amp;ntilde;&amp;iacute;a de seguros:&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="2fb282a1-3550-4230-af88-9b8e8010b552" data-pillvalue="{{Created_1.current.cliente.seguro.compania}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="2fb282a1-3550-4230-af88-9b8e8010b552" data-pillvalue="{{Created_1.current.cliente.seguro.compania}}"&gt;Trigger➛Programa Record➛DNI Paciente➛Seguro➛Compa&amp;ntilde;&amp;iacute;a&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Plan de Seguro:&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="b4d6f22a-97c7-4191-9779-e196fe69867c" data-pillvalue="{{Created_1.current.cliente.seguro.nombre}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="b4d6f22a-97c7-4191-9779-e196fe69867c" data-pillvalue="{{Created_1.current.cliente.seguro.nombre}}"&gt;Trigger➛Programa Record➛DNI Paciente➛Seguro➛Nombre&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M&amp;eacute;dico tratante:&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="91c6e918-3bba-47eb-b930-cbf59d944ef4" data-pillvalue="{{Created_1.current.usuario.name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="91c6e918-3bba-47eb-b930-cbf59d944ef4" data-pillvalue="{{Created_1.current.usuario.name}}"&gt;Trigger➛Programa Record➛Usuario➛Name&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="d9cc9fa3-a615-4752-be4a-244d1cd42db8" data-pillvalue="{{Created_1.current.cliente.medico_tratante.last_name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="d9cc9fa3-a615-4752-be4a-244d1cd42db8" data-pillvalue="{{Created_1.current.cliente.medico_tratante.last_name}}"&gt;Trigger➛Programa Record➛DNI Paciente➛Medico tratante➛Last name&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Direcci&amp;oacute;n:&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Diagn&amp;oacute;stico:&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fecha:&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="b805af4f-a7ae-415f-ac04-63e5793d2c9d" data-pillvalue="{{Created_1.current.u_glide_date_2}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="b805af4f-a7ae-415f-ac04-63e5793d2c9d" data-pillvalue="{{Created_1.current.u_glide_date_2}}"&gt;Trigger➛Programa Record➛Fecha&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Laboratorio:&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;Detalle Insumos:&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="06ec381e-555b-41f8-9dac-9226b81e3499" data-pillvalue="{{9bcc793f-bf0a-46cb-8a87-ac54f575fe5f.Records}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="06ec381e-555b-41f8-9dac-9226b81e3499" data-pillvalue="{{9bcc793f-bf0a-46cb-8a87-ac54f575fe5f.Records}}"&gt;5.1➛L&amp;iacute;nea de Programa Records&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Saludos.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>0e583cdd130f7b00959370d66144b0ac</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>4a583cdd130f7b00959370d66144b0b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>Aplicacion seguro a paciente  {{Created_1.current.cliente.dni}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>0e583cdd130f7b00959370d66144b0ac</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:14:15</sys_created_on>
+        <sys_id>86583cdd130f7b00959370d66144b0b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:14:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created_1.current.cliente.seguro.email}}</value>
+    </sys_element_mapping>
+</record_update>

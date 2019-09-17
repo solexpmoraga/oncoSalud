@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>cliente.seguro.compania</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-02 15:38:42</sys_created_on>
+        <sys_id>7cf64c15138b7b00959370d66144b011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cliente.seguro.compania</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7cf64c15138b7b00959370d66144b011</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-02 15:38:42</sys_updated_on>
+        <table>x_snc_oncosalud_programa</table>
+        <ui_policy display_value="Inhibe el permiso de escritura de ciertos campos dependientes en Programa y Presupuesto">58a588d1138b7b00959370d66144b0a5</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

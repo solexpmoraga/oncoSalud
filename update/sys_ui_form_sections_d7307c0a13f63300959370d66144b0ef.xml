@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d7307c0a13f63300959370d66144b0ef" sys_domain="global" table="sys_hub_flow_input" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-23 16:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97307c0a13f63300959370d66144b0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d7307c0a13f63300959370d66144b0ef</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">57307c0a13f63300959370d66144b0f5</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-23 16:18:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-23 16:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3307c0a13f63300959370d66144b0fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d7307c0a13f63300959370d66144b0ef</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">9b307c0a13f63300959370d66144b0f8</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-23 16:18:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-23 16:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57307c0a13f63300959370d66144b0f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d7307c0a13f63300959370d66144b0ef</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">93307c0a13f63300959370d66144b0f1</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-23 16:18:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-23 16:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f307c0a13f63300959370d66144b0f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d7307c0a13f63300959370d66144b0ef</sys_ui_form>
+            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">5b307c0a13f63300959370d66144b0f2</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-23 16:18:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-23 16:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53307c0a13f63300959370d66144b0f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d7307c0a13f63300959370d66144b0ef</sys_ui_form>
+            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">13307c0a13f63300959370d66144b0f4</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-23 16:18:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-23 16:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b307c0a13f63300959370d66144b0fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d7307c0a13f63300959370d66144b0ef</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_hub_flow_input" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d7307c0a13f63300959370d66144b0fb</sys_ui_section>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-23 16:18:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_hub_flow_input</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-23 16:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7307c0a13f63300959370d66144b0ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_hub_flow_input</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d7307c0a13f63300959370d66144b0ef</sys_update_name>
+            <sys_updated_by>slx.os</sys_updated_by>
+            <sys_updated_on>2019-07-23 16:18:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

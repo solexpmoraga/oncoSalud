@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Elemento del Paquete" language="en" table="x_snc_oncosalud_aux_paquetizacion">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Elemento del Paquete</label>
+            <language>en</language>
+            <name>x_snc_oncosalud_aux_paquetizacion</name>
+            <plural>Elemento del Paquetes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-22 19:08:35</sys_created_on>
+            <sys_id>fb8dc03d13727f40959370d66144b09b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Elemento del Paquete</sys_name>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_oncosalud_aux_paquetizacion__en</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:57:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

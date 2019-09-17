@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="OncoSalud">3ff835901383b7003c7bb9b76144b02d</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>a6fefe6a13c5bb00959370d66144b0ad</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-05 21:46:59</sys_created_on>
+        <sys_id>e418f05213c3fb003c7bb9b76144b036</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>a6fefe6a13c5bb00959370d66144b0ad</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_e418f05213c3fb003c7bb9b76144b036</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-05 21:47:41</sys_updated_on>
+        <type>3</type>
+        <user display_value="slx rm">a6fefe6a13c5bb00959370d66144b0ad</user>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>

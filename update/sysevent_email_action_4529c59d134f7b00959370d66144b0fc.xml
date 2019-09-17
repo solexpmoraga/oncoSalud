@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Content Automation" name="Content Automation">2b662fd5eb101300a9e7e26ac106fe6d</category>
+        <collection>x_snc_oncosalud_programa</collection>
+        <condition table="x_snc_oncosalud_programa">u_string_3=Enviado^tipo=Presupuesto^EQ<item endquery="false" field="u_string_3" goto="false" newquery="false" operator="=" or="false" value="Enviado"/>
+            <item endquery="false" field="tipo" goto="false" newquery="false" operator="=" or="false" value="Presupuesto"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Email que envía el presupuesto de OncoSalud</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>workflow.notification</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>presupestos@oncosalud.pe</from>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img src="/sys_attachment.do?sys_id=ef3788b9131737403c7bb9b76144b069" /><br />Estimando(a) Sr(a) ${cliente.apellido},</p>
+<p>A continuaci&oacute;n hacemos entrega del presupuesto solicitado en OncoSalud con fecha ${u_glide_date_2}. El detalle del mismo aparece a continuaci&oacute;n:</p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><strong><span style="text-decoration: underline;">Presupuesto&nbsp;N&ordm; ${number}</span></strong></span></p>
+<p style="text-align: left;">Motivo: ${motivo}<br />Paciente:&nbsp;${cliente.nombre} ${cliente.apellido}<br />DNI: ${cliente.dni}<br />Diagn&oacute;stico: ${cliente.diagnostico}<br />M&eacute;dico tratante: Dr. ${medico.first_name} ${medico.last_name}<br />${mail_script:oncosalud_email_cliente}</p>
+<p>Condiciones de pago : el 20% 10 d&iacute;as antes de la intervenci&oacute;n y el 80% restante el d&iacute;a de su ingreso en el hospital para la intervenci&oacute;n. Los pagos se pueden efectuar por transferencia, tarjeta de cr&eacute;dito o efectivo.</p>
+<p><br />Ante cualquier consulta, no dude en contactarnos a los tel&eacute;fonos:<br /> +51 345 234 234<br /> +51 345 234 235<br /> <br /> Atte.<br /> ${usuario.first_name} ${usuario.last_name}<br />${usuario.title}<br />&nbsp;</p>
+<style type="text/css"><!--
+�<span id="__caret">_</span>�<span id="__caret">_</span><!--
+<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span>�<span id="__caret">_</span><!--
+p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+span.s1 {font-kerning: none}
+-->
+<span id="CmCaReT"></span>
+--></style>
+<style><!--
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+--></style>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[<p>Estimando paciente,</p>
+<p> A continuación hacemos entrega del presupuesto Número ${number} solicitado en OncoSalud con fecha ${u_glide_date_2}.</p> 
+<p>El detalle del mismo aparece a continuación: </p> <p>${mail_script:oncosalud_email_cliente}</p>
+<p>Condiciones de pago : el 20% 10 días antes de la intervención y el 80% restante el día de su ingreso en el hospital para la intervención. Los pagos se pueden efectuar por transferencia, tarjeta de crédito o efectivo.</p>
+<p>&nbsp;</p>
+ <p>Ante cualquier consulta, no dude en contactarnos a los teléfonos: +51 345 234 234 +51 345 234 235</p>
+<p>  Atte.  ${usuario.first_name} ${usuario.last_name} </p>]]></message_text>
+        <name>Notificacion Oncosalud</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>cliente.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>noreply@oncosalud.pe</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>OncoSalud Presupuesto  Número: ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 20:31:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4529c59d134f7b00959370d66144b0fc</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Notificacion Oncosalud</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sysevent_email_action_4529c59d134f7b00959370d66144b0fc</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-16 15:19:29</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

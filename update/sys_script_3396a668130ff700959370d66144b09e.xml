@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>getGroupedUsers</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+function getGroupedUsers(queryCondition, groupList) {
+    var groupListIds;
+    if (queryCondition && groupList) { groupListIds = getGroupListIds(groupList); }
+
+
+    var users = {};
+    var gr = new GlideRecord('sys_user_grmember');
+    if (groupListIds) { gr.addQuery('group', queryCondition, groupListIds); }
+    gr.query();
+    while (gr.next()) { users[gr.user.toString()] = true; }
+    
+    var ids = [];
+    for (var id in users) { ids.push(id); }
+    return ids;
+}
+
+
+// get sys_ids for the named groups
+function getGroupListIds(groupList) {
+    var ids = [];
+    var gr = new GlideRecord('sys_user_group');
+    gr.addQuery('name','IN',groupList);
+    gr.query();
+    while (gr.next()) { ids.push(gr.sys_id.toString()); }
+    return ids;
+}
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-07-31 19:21:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3396a668130ff700959370d66144b09e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getGroupedUsers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_script_3396a668130ff700959370d66144b09e</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-07-31 19:21:32</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3396a668130ff700959370d66144b09e"/>
+</record_update>

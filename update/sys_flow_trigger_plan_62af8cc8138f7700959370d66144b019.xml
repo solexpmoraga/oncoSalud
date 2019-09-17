@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"62af8cc8138f7700959370d66144b019","name":"plan"}}</plan>
+        <plan_id>d5636ffb133e7700959370d66144b028</plan_id>
+        <snapshot>e9cf000c138f7700959370d66144b01f</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-07-29 19:04:07</sys_created_on>
+        <sys_id>62af8cc8138f7700959370d66144b019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e6af8cc8138f7700959370d66144b00a</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_62af8cc8138f7700959370d66144b019</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-07-29 19:04:07</sys_updated_on>
+        <trigger display_value="">e6af8cc8138f7700959370d66144b00a</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

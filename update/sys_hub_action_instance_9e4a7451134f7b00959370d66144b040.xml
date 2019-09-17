@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="OncoSalud Creacion Presupuesto">9b10540c138f7700959370d66144b094</flow>
+        <order>4.2</order>
+        <parent_ui_id>0c349c91-cd39-40ed-9c9e-07825172ff31</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:22:44</sys_created_on>
+        <sys_id>9e4a7451134f7b00959370d66144b040</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_action_instance_9e4a7451134f7b00959370d66144b040</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-19 15:25:42</sys_updated_on>
+        <ui_id>eb18853b-262b-48d4-ba6a-ced045ee4431</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e4a7451134f7b00959370d66144b040"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9e4a7451134f7b00959370d66144b040</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:22:50</sys_created_on>
+        <sys_id>374ab451134f7b00959370d66144b039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:22:50</sys_updated_on>
+        <value>x_snc_oncosalud_acci_n</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9e4a7451134f7b00959370d66144b040</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:22:44</sys_created_on>
+        <sys_id>5a4a7451134f7b00959370d66144b046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:22:44</sys_updated_on>
+        <value>x_snc_oncosalud_acci_n</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e4a7451134f7b00959370d66144b040"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9e4a7451134f7b00959370d66144b040</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:22:44</sys_created_on>
+        <sys_id>164a7451134f7b00959370d66144b046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:22:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9e4a7451134f7b00959370d66144b040</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:22:50</sys_created_on>
+        <sys_id>ff4ab451134f7b00959370d66144b038</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9e4a7451134f7b00959370d66144b040</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:22:50</sys_created_on>
+        <sys_id>b34ab451134f7b00959370d66144b039</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-19 15:22:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>programa={{Created_1.current}}^short_description=Revisar respuesta de aseguradora^description=Ha sido enviado un correo electrónico a {{Created_1.current.cliente.seguro.compania}} por el plan "{{Created_1.current.cliente.seguro.nombre}}", el cuál deberá ser revisado por la aseguradora y esperar una respuesta a más tardar dentro de los próximos 3 días hábiles. UUna vez recepcionada dicha respuesta usted deberá actualizar el porcentaje de descuento aprobado e incluir la fecha del correo y  el remitente del mismo.^assignment_group={"display":"Auditoría Médica","value":"77ef2dd81343b7003c7bb9b76144b0a7"}^assigned_to={"display":"Auditor Médico1","value":"2472351c138fb700959370d66144b06c"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9e4a7451134f7b00959370d66144b040</id>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 19:22:44</sys_created_on>
+        <sys_id>d64a7451134f7b00959370d66144b046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:22:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>programa={{Created_1.current}}^short_description=Revisar respuesta de aseguradora^description=Ha sido enviado un correo electrónico a {{Created_1.current.cliente.seguro.compania}} por el plan "{{Created_1.current.cliente.seguro.nombre}}", el cuál deberá ser revisado por la aseguradora y esperar una respuesta a más tardar dentro de los próximos 3 días hábiles. UUna vez recepcionada dicha respuesta usted deberá actualizar el porcentaje de descuento aprobado e incluir la fecha del correo y  el remitente del mismo.^assignment_group={"display":"Auditoría Médica","value":"77ef2dd81343b7003c7bb9b76144b0a7"}^assigned_to={"display":"Auditor Médico1","value":"2472351c138fb700959370d66144b06c"}</value>
+    </sys_element_mapping>
+</record_update>

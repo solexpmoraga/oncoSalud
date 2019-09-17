@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>oncosalud_cambioestado_enpreparacion</internal_name>
+        <label_cache>[{"name":"Created_1.current.programa","label":"Trigger➛Línea de Programa Record➛Programa","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"reference","base_type":"reference","parent_table_name":"x_snc_oncosalud_lineas_de_programa","column_name":"programa"},{"name":"6be4ac82-e811-4094-8f16-3c6218bce551.table_name","label":"1.1➛Programa Table","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"table_name","base_type":"table_name"},{"name":"6be4ac82-e811-4094-8f16-3c6218bce551.record","label":"1.1➛Programa Record","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"reference","base_type":"reference"},{"name":"8e0b9d99-5bdf-4e7c-96c7-9e65e3028c81.table_name","label":"2➛Programa Table","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"table_name","base_type":"table_name"},{"name":"8e0b9d99-5bdf-4e7c-96c7-9e65e3028c81.record","label":"2➛Programa Record","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"reference","base_type":"reference"},{"name":"Created_1.current.programa.u_string_3","label":"Trigger➛Línea de Programa Record➛Programa➛Estado","reference":"","reference_display":"Estado","type":"choice","base_type":"choice","parent_table_name":"x_snc_oncosalud_programa","column_name":"u_string_3"},{"name":"Created_1.table_name","label":"Trigger➛Línea de Programa Table","reference":"x_snc_oncosalud_lineas_de_programa","reference_display":"Línea de Programa","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.number","label":"Trigger➛Línea de Programa Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_oncosalud_lineas_de_programa","column_name":"number"}]</label_cache>
+        <latest_snapshot>e9cf000c138f7700959370d66144b01f</latest_snapshot>
+        <master_snapshot>96af4cc8138f7700959370d66144b079</master_snapshot>
+        <name>Oncosalud_cambioestado_enpreparacion</name>
+        <outputs/>
+        <remote_trigger_id>e6af8cc8138f7700959370d66144b00a</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-07-29 15:50:41</sys_created_on>
+        <sys_id>d5636ffb133e7700959370d66144b028</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Oncosalud_cambioestado_enpreparacion</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_flow_d5636ffb133e7700959370d66144b028</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:24:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5636ffb133e7700959370d66144b028"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d5636ffb133e7700959370d66144b028"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cliente" max_length="40" name="x_snc_oncosalud_cliente" type="collection">
+        <element label="Apellido" max_length="40" name="apellido" type="string"/>
+        <element label="Diagnóstico" max_length="50" name="diagnostico" type="string"/>
+        <element display="true" label="DNI" max_length="40" name="dni" type="string"/>
+        <element label="Email" max_length="254" name="email" type="string"/>
+        <element label="Fecha nacimiento" max_length="40" name="fecha_nacimiento" type="glide_date"/>
+        <element label="Medico tratante" max_length="32" name="medico_tratante" reference="sys_user" reference_qual="title=medico^EQ" reference_qual_condition="title=medico^EQ" type="reference"/>
+        <element label="Nombre" max_length="40" name="nombre" type="string"/>
+        <element label="Seguro" max_length="32" name="seguro" reference="x_snc_oncosalud_seguros" type="reference"/>
+        <element label="Telefono" max_length="12" name="telefono" type="phone_number_e164"/>
+        <index name="index">
+            <element name="seguro"/>
+        </index>
+        <index name="index2">
+            <element name="medico_tratante"/>
+        </index>
+    </element>
+</database>

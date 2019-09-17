@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Programa" max_length="40" name="x_snc_oncosalud_programa" type="collection">
+        <element label="Adquisiciones" max_length="40" name="adquisiciones" type="boolean"/>
+        <element label="DNI Paciente" mandatory="true" max_length="32" name="cliente" reference="x_snc_oncosalud_cliente" type="reference"/>
+        <element dependent="notas_de_trabajo" dependent_on_field="notas_de_trabajo" label="Comentarios y Notas de Trabajo" max_length="4000" name="comments_and_work_notes" type="journal_list" use_dependent_field="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Fecha de Entrega" max_length="40" name="due_date" read_only="true" type="glide_date_time"/>
+        <element label="Farmacia" max_length="40" name="farmacia" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;if (current.tipo == 'Presupuesto'){&#13;&#10;&#9;var total_cargos = current.u_float_1;&#13;&#10;    //var porcentaje_plan = current.cliente.seguro.descuento;&#13;&#10;&#9;var descuentos =  current.total_descuentos;&#13;&#10;&#9;&#13;&#10;&#9;return total_cargos - descuentos;   // return the calculated value&#13;&#10;&#9;}&#13;&#10;&#9;return 0;  // &lt;-- Si se trata de un programa&#13;&#10;&#9;&#13;&#10;})(current);" label="Gran Total" max_length="40" name="gran_total" read_only="true" type="float" virtual="true"/>
+        <element label="Lista de Notas de Trabajo" max_length="4000" name="lista_de_notas_de_trabajo" reference="sys_user" type="glide_list"/>
+        <element label="Médico tratante" max_length="32" name="medico" reference="sys_user" reference_qual="title=medico^EQ" reference_qual_condition="title=medico^EQ" type="reference"/>
+        <element label="Motivo" max_length="50" name="motivo" type="string"/>
+        <element label="Notas de Trabajo" max_length="4000" name="notas_de_trabajo" type="journal_input"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="Programa" display="true" label="Tipo" max_length="30" name="tipo" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#9;if (current.tipo == 'Programa'){&#13;&#10;     var porcentaje_plan = current.cliente.seguro.descuento;&#13;&#10;&#9; var total_cargos = current.u_float_1;&#13;&#10;&#9; &#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return (porcentaje_plan * total_cargos)/100 ;  // return the calculated value&#13;&#10;&#9;&#9;}&#13;&#10;&#9;return current.total_descuentos;&#13;&#10;})(current);" label="Total Descuentos" max_length="40" name="total_descuentos" type="float"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Usuario" max_length="32" name="usuario" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;if (current.tipo == 'Programa'){&#13;&#10;&#9;&#9;var linprog = 'x_snc_oncosalud_lineas_de_programa';&#13;&#10;&#9;&#9;var tarifarioTable = 'x_snc_oncosalud_tarifario';&#13;&#10;&#9;&#9;var Total = 'total'; // what do we want to sum up?&#13;&#10;&#9;&#9;var count = 0;&#13;&#10;&#9;&#9;var gr2 = new GlideRecord(linprog);&#13;&#10;&#9;&#9;gr2.addQuery('programa', current.sys_id);&#13;&#10;&#9;&#9;gr2.query();&#13;&#10;&#9;&#9;var gran_total2=0;&#13;&#10;&#9;&#9;var tarificacion_id;&#13;&#10;&#9;&#9;var cantidad = 0;&#13;&#10;&#9;&#9;while (gr2.next()){&#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;tarificacion_id = gr2.getValue('tarificacion');&#13;&#10;&#9;&#9;&#9;cantidad = gr2.getValue('cantidad');&#13;&#10;&#9;&#9;&#9;var gr3 = new GlideRecord(tarifarioTable);&#13;&#10;&#9;&#9;&#9;gr3.addQuery('sys_id', tarificacion_id);&#13;&#10;&#9;&#9;&#9;gr3.query();&#13;&#10;&#9;&#9;&#9;gr3.next();&#13;&#10;&#9;&#9;&#9;gran_total2 = gr3.getValue('precio_unitario') * cantidad;&#13;&#10;&#9;&#9;&#9;count += gran_total2;&#13;&#10;&#9;&#9;}&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;return count;   // return the calculated value&#13;&#10;&#9;}&#13;&#10;&#9;return current.u_float_1;&#13;&#10;})(current);" label="Total Cargos" max_length="40" name="u_float_1" read_only="true" type="float" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Fecha Creación" max_length="40" name="u_glide_date_2" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Creado" label="Estado" max_length="40" name="u_string_3" type="choice">
+            <choice>
+                <element hint="El programa está apenas creado. " inactive_on_update="false" label="Creado" sequence="0" value="Creado"/>
+                <element inactive_on_update="false" label="Enviado" sequence="1" value="Enviado"/>
+                <element inactive_on_update="false" label="Pagado" sequence="5" value="Pagado"/>
+                <element inactive_on_update="false" label="Rechazado" sequence="6" value="Rechazado"/>
+                <element inactive_on_update="false" label="En preparación" sequence="7" value="En preparación"/>
+                <element inactive_on_update="false" label="Anulado" sequence="8" value="Anulado"/>
+                <element inactive_on_update="false" label="Atrasado" sequence="9" value="Atrasado"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="cliente"/>
+        </index>
+        <index name="index2">
+            <element name="medico"/>
+        </index>
+        <index name="index3">
+            <element name="usuario"/>
+        </index>
+    </element>
+</database>

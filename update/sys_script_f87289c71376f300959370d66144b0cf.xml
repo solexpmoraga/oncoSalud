@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_oncosalud_lineas_de_programa</collection>
+        <condition>current.tipo == "Programa"</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX_crear_linea_programa</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+if (current.paquetizacion != ""){
+	
+	current.paquete = current.paquetizacion.nombre;
+	
+   //Type appropriate comment here, and begin script below
+   //gs.addErrorMessage('Paquetización:' + current.paquetizacion + ' Programa:' + current.programa );
+	
+   //Hacer una copia de cada elemento del paquete médico en las líneas de programa 
+   var elementoPack = new GlideRecord('x_snc_oncosalud_aux_paquetizacion');  //lista de elementos
+   elementoPack.addQuery('paquetizacion', current.paquetizacion);
+   elementoPack.query();
+	
+   //Crear encabezado del paquete
+//    var lineaPackHead = new GlideRecord('x_snc_oncosalud_lineas_de_programa');
+//    lineaPackHead.initialize();
+//    lineaPackHead.programa = current.programa;
+//    lineaPackHead.paquete = current.paquetizacion.nombre;
+//    lineaPackHead.insert();
+   
+   //Por cada elemeneto del paquete	
+   while (elementoPack.next()){
+		var lineaPack = new GlideRecord('x_snc_oncosalud_lineas_de_programa');
+		lineaPack.initialize();
+	    lineaPack.programa = current.programa;
+		lineaPack.tarificacion = elementoPack.tarifario;
+	   	lineaPack.paquete = elementoPack.paquetizacion.nombre;
+	    lineaPack.insert();
+  }
+ 
+
+
+}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-07-26 20:12:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f87289c71376f300959370d66144b0cf</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SLX_crear_linea_programa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_script_f87289c71376f300959370d66144b0cf</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-07-30 14:44:12</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f87289c71376f300959370d66144b0cf"/>
+</record_update>

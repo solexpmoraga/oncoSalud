@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tarifario" max_length="40" name="x_snc_oncosalud_tarifario" type="collection">
+        <element default="0" label="Ayudantes" max_length="40" name="ayudantes" type="integer"/>
+        <element label="Complejo" max_length="40" name="complejo" type="boolean"/>
+        <element default="0" label="Días Promedio" max_length="40" name="dias_promedio" type="integer"/>
+        <element default="true" label="Disponible" max_length="40" name="disponible" type="boolean"/>
+        <element default="0" label="Intrumentistas" max_length="40" name="intrumentistas" type="integer"/>
+        <element display="true" label="Nombre Tarifa" max_length="40" name="nombre" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Numero" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Categoría" max_length="32" name="paquetizacion" type="string"/>
+        <element label="Precio unitario" max_length="40" name="precio_unitario" type="float"/>
+        <element default="0" label="Unidades" max_length="40" name="unidades" type="float"/>
+        <index name="index">
+            <element name="paquetizacion"/>
+        </index>
+    </element>
+</database>

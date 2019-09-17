@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="My  PA Activity Usage">6a091cdf13c7b300959370d66144b096</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-08 22:05:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a091413130bb300959370d66144b03e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>6a091cdf13c7b300959370d66144b096</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_2a091413130bb300959370d66144b03e</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-08 22:05:21</sys_updated_on>
+        <tab display_value="New Tab">2a091413130bb300959370d66144b03c</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

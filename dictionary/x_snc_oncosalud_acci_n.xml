@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Acción" max_length="40" name="x_snc_oncosalud_acci_n" sizeclass="88" type="collection">
+        <element dependent="programa" dependent_on_field="programa" label="Línea de Programa" max_length="32" name="linea_de_programa" read_only="true" reference="x_snc_oncosalud_lineas_de_programa" type="reference" use_dependent_field="true"/>
+        <element label="Programa" max_length="32" name="programa" read_only="true" reference="x_snc_oncosalud_programa" type="reference"/>
+    </element>
+</database>

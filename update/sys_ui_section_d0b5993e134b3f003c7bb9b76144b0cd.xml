@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Historial" section_id="d0b5993e134b3f003c7bb9b76144b0cd" sys_domain="global" table="x_snc_oncosalud_programa" version="3" view="Presupuesto">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notas_de_trabajo</element>
+            <position>0</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 13:33:48</sys_created_on>
+            <sys_id>235a9d72138b3f003c7bb9b76144b0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Historial" display_value="Historial" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">d0b5993e134b3f003c7bb9b76144b0cd</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 13:33:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <position>1</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 13:33:48</sys_created_on>
+            <sys_id>a35a9d72138b3f003c7bb9b76144b0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Historial" display_value="Historial" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">d0b5993e134b3f003c7bb9b76144b0cd</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 13:33:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Historial</caption>
+            <header>false</header>
+            <name>x_snc_oncosalud_programa</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 13:13:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0b5993e134b3f003c7bb9b76144b0cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Historial</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_ui_section_d0b5993e134b3f003c7bb9b76144b0cd</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 13:13:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Presupuesto" name="Presupuesto">e984789c13cbb700959370d66144b057</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

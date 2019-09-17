@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="total" table="x_snc_oncosalud_paquetizacion">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+   var auxTable = 'x_snc_oncosalud_aux_paquetizacion';
+   var tarifarioTable = 'x_snc_oncosalud_tarifario';
+   var tarifario = 'tarifario'; // what do we want to sum up?
+   var precioUnitario = 'precio_unitario';
+   var count = 0;
+	
+   var gr1 = new GlideRecord(auxTable);
+   gr1.addQuery('paquetizacion', current.sys_id);
+   gr1.query();
+   //gs.addInfoMessage('cuenta=' + gr1.getRowCount()); 
+   while (gr1.next()) {
+	   //var n = parseInt(gr.getValue(numberField), 10);
+	   var tarifario_id = gr1.getValue('tarifario'); 
+	   //gs.addInfoMessage('tarifario_id=' + tarifario_id);
+	   var gr2 = new GlideRecord(tarifarioTable);
+	   gr2.addQuery('sys_id', tarifario_id);
+	   gr2.query();
+	      while (gr2.next()) {
+	         //gr2.next();
+			 var n2 = parseFloat(gr2.getValue(precioUnitario)); 
+			 count += n2;
+		 }
+   }
+
+   return count;   // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Total</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">float</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>15</max_length>
+        <name>x_snc_oncosalud_paquetizacion</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-07-22 15:10:53</sys_created_on>
+        <sys_id>02275b69133ebb403c7bb9b76144b08b</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Total</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_oncosalud_paquetizacion_total</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-07-22 20:07:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>true</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>

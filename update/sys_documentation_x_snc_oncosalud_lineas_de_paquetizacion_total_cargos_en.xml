@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_cargos" label="Total Cargos" language="en" table="x_snc_oncosalud_lineas_de_paquetizacion">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_cargos</element>
+            <help/>
+            <hint/>
+            <label>Total Cargos</label>
+            <language>en</language>
+            <name>x_snc_oncosalud_lineas_de_paquetizacion</name>
+            <plural>Total Cargos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-07-25 13:14:34</sys_created_on>
+            <sys_id>9f491a2213be73003c7bb9b76144b066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Cargos</sys_name>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_oncosalud_lineas_de_paquetizacion_total_cargos_en</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:14:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

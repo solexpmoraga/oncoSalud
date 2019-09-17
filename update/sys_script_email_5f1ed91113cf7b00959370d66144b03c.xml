@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>oncosalud_email_cliente</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+         // Add your code here
+	var recup_pres = new GlideRecord('x_snc_oncosalud_lineas_de_programa');
+	recup_pres.addQuery('programa', current.sys_id);
+	recup_pres.query();
+	
+	//Encabezado
+	template.print('<table>');
+	template.print(' <tr>');
+	template.print('	<th>Código</th>');
+	template.print('	<th>Paquetización</th>');
+	template.print('	<th>Producto/Procedimiento</th>');
+	template.print('	<th>Cantidad</th>');
+	template.print('	<th>Precio</th>');
+	template.print('	<th>Total</th>');
+	template.print(' </tr>');
+	
+	//Líneas del presupuesto
+	while(recup_pres.next()){
+		var cant = recup_pres.cantidad;
+		var paquete = recup_pres.paquete;
+		var nombre_tarifa = recup_pres.tarificacion.nombre;
+		var tarif_pre_u = recup_pres.tarificacion.precio_unitario;
+		var total = recup_pres.total;
+		var codigo = recup_pres.tarificacion.number;
+		template.print(' <tr>');
+		template.print('	<td>' + codigo + '</td>');
+		template.print('	<td>' + paquete + '</td>');
+		template.print('	<td>' + nombre_tarifa + '</td>');
+		template.print('	<td>' + cant + '</td>');
+		template.print('	<td align="right">' + 'S/ '+ tarif_pre_u+'</td>');
+		template.print('	<td align="right">' + 'S/ '+ total +'</td>');
+		template.print(' </tr>');
+	}
+	
+	//Total Cargos
+	template.print(' <tr>');
+	template.print('	<td colspan="5" align="right">Total Cargos</td>');
+	template.print('	<td align="right">' + 'S/ '+ current.u_float_1 +'</td>');
+	template.print(' </tr>');
+	
+	//Descuentos
+	template.print(' <tr>');
+	template.print('	<td colspan="5" align="right">Total Descuentos</td>');
+	template.print('	<td align="right">' + 'S/ '+ current.total_descuentos +'</td>');
+	template.print(' </tr>');
+	
+	//Gran Total
+	template.print(' <tr>');
+	template.print('	<td colspan="5" align="right"><b>Gran Total</b></td>');
+	template.print('	<td align="right"><b>' + 'S/ '+ current.gran_total +'</b></td>');
+	template.print(' </tr>');
+	
+	//Pie
+	template.print('</table>');
+
+	
+    //template.print('<p>programa: ' + current.number + '</p>');
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 21:59:52</sys_created_on>
+        <sys_id>5f1ed91113cf7b00959370d66144b03c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>oncosalud_email_cliente</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_script_email_5f1ed91113cf7b00959370d66144b03c</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-03 17:51:02</sys_updated_on>
+    </sys_script_email>
+</record_update>

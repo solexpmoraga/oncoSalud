@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Presupuesto Médico" section_id="2d84789c13cbb700959370d66144b05b" sys_domain="global" table="x_snc_oncosalud_programa" version="3" view="Presupuesto">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>f250137a13cf3f003c7bb9b76144b023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>motivo</element>
+            <position>1</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>7a50137a13cf3f003c7bb9b76144b023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cliente</element>
+            <position>2</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>fa50137a13cf3f003c7bb9b76144b023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cliente.nombre</element>
+            <position>3</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>7e50137a13cf3f003c7bb9b76144b023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cliente.apellido</element>
+            <position>4</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>fe50137a13cf3f003c7bb9b76144b023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cliente.seguro.compania</element>
+            <position>5</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>7250137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cliente.seguro.nombre</element>
+            <position>6</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>f250137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>7650137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>usuario.user_name</element>
+            <position>8</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>f650137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>medico</element>
+            <position>9</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>7a50137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_2</element>
+            <position>10</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>fa50137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>11</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>7e50137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>farmacia</element>
+            <position>12</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>fe50137a13cf3f003c7bb9b76144b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>adquisiciones</element>
+            <position>13</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>7250137a13cf3f003c7bb9b76144b025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_3</element>
+            <position>14</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-07 22:09:17</sys_created_on>
+            <sys_id>f250137a13cf3f003c7bb9b76144b025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presupuesto Médico" display_value="Presupuesto Médico" name="x_snc_oncosalud_programa" sys_domain="global" view="e984789c13cbb700959370d66144b057">2d84789c13cbb700959370d66144b05b</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-07 22:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Presupuesto Médico</caption>
+            <header>false</header>
+            <name>x_snc_oncosalud_programa</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-30 16:23:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d84789c13cbb700959370d66144b05b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Presupuesto Médico</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_ui_section_2d84789c13cbb700959370d66144b05b</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-01 18:23:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Presupuesto" name="Presupuesto">e984789c13cbb700959370d66144b057</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

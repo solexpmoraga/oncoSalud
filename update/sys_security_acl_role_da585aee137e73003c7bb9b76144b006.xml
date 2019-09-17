@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-07-25 13:10:25</sys_created_on>
+        <sys_id>da585aee137e73003c7bb9b76144b006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_oncosalud_lineas_de_paquetizacion.x_snc_oncosalud.lineas_de_paquetizaci_n_user</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_security_acl display_value="x_snc_oncosalud_lineas_de_paquetizacion">de581aee137e73003c7bb9b76144b0f5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_da585aee137e73003c7bb9b76144b006</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-07-25 13:10:25</sys_updated_on>
+        <sys_user_role display_value="x_snc_oncosalud.lineas_de_paquetizaci_n_user" name="x_snc_oncosalud.lineas_de_paquetizaci_n_user">f9581aee137e73003c7bb9b76144b003</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

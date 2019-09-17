@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="INSERT_OR_UPDATE">
+        <aggregate>COUNT</aggregate>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="UI14 Green">3b36c9b3d7332100fa6c0c12ce610311</color>
+        <color_palette display_value="Blues light to dark (5)">b22671cdd7500200b96d45a3ce6103ee</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field/>
+        <filter table="x_snc_oncosalud_programa">tipo=Presupuesto^u_string_3=Pagado<item endquery="false" field="tipo" goto="false" newquery="false" operator="=" or="false" value="Presupuesto"/>
+            <item endquery="false" field="u_string_3" goto="false" newquery="false" operator="=" or="false" value="Pagado"/>
+        </filter>
+        <import_table/>
+        <interval>month</interval>
+        <list_ui_view/>
+        <report display_value="Pagados vs. Finalizados">3fb2c4f5131737403c7bb9b76144b0a5</report>
+        <report_source/>
+        <sequence>1</sequence>
+        <series_name_text>Pagados</series_name_text>
+        <set_color>one_color</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>table</source_type>
+        <style_config/>
+        <sumfield/>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-16 14:56:26</sys_created_on>
+        <sys_id>c293c439131737403c7bb9b76144b001</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Pagados</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_report_layer_c293c439131737403c7bb9b76144b001</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-16 17:51:35</sys_updated_on>
+        <table>x_snc_oncosalud_programa</table>
+        <trend_field>due_date</trend_field>
+        <type>line_bar</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+</record_update>

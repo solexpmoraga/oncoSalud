@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="Analytics Owner">145f691213d7b20005ef54c32244b078</breakdown>
+        <display>true</display>
+        <indicator display_value="Oncosalud % Presupuestos Pagados">d2da4675130bfb00959370d66144b031</indicator>
+        <order>200</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-08-12 21:51:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>483cb4a0139373403c7bb9b76144b0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Analytics Owner.Oncosalud % Presupuestos Pagados</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_483cb4a0139373403c7bb9b76144b0ec</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-12 21:51:18</sys_updated_on>
+    </pa_indicator_breakdowns>
+</record_update>

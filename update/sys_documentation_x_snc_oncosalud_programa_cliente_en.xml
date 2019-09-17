@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cliente" label="DNI Paciente" language="en" table="x_snc_oncosalud_programa">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cliente</element>
+            <help/>
+            <hint/>
+            <label>DNI Paciente</label>
+            <language>en</language>
+            <name>x_snc_oncosalud_programa</name>
+            <plural>DNI Pacientes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.os</sys_created_by>
+            <sys_created_on>2019-07-18 19:29:41</sys_created_on>
+            <sys_id>b10cabd4137a7b40959370d66144b02a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>DNI Paciente</sys_name>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_oncosalud_programa_cliente_en</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-07-23 15:03:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

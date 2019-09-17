@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2ed7ac9013cbb700959370d66144b0af</id>
+        <name>Oncosalud_cambio_presupuestado</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-07-30 15:28:16</sys_created_on>
+        <sys_id>66d7ac9013cbb700959370d66144b0b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oncosalud_cambio_presupuestado</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_66d7ac9013cbb700959370d66144b0b0</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-07-30 15:28:16</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

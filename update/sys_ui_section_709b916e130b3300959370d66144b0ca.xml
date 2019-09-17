@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="709b916e130b3300959370d66144b0ca" sys_domain="global" table="x_snc_oncosalud_cliente" version="3" view="Medico">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nombre</element>
+            <position>0</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>46ab156e130b3300959370d66144b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>apellido</element>
+            <position>1</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>c6ab156e130b3300959370d66144b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dni</element>
+            <position>2</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>4aab156e130b3300959370d66144b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fecha_nacimiento</element>
+            <position>3</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>caab156e130b3300959370d66144b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telefono</element>
+            <position>4</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>4eab156e130b3300959370d66144b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>5</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>ceab156e130b3300959370d66144b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>seguro</element>
+            <position>6</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>42ab156e130b3300959370d66144b044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>c2ab156e130b3300959370d66144b044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>medico_tratante</element>
+            <position>8</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>46ab156e130b3300959370d66144b044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>diagnostico</element>
+            <position>9</position>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:55</sys_created_on>
+            <sys_id>c6ab156e130b3300959370d66144b044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oncosalud_cliente" sys_domain="global" view="bc9b916e130b3300959370d66144b0c6">709b916e130b3300959370d66144b0ca</sys_ui_section>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_oncosalud_cliente</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.pm</sys_created_by>
+            <sys_created_on>2019-08-06 19:00:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>709b916e130b3300959370d66144b0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_oncosalud_cliente</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+            <sys_update_name>sys_ui_section_709b916e130b3300959370d66144b0ca</sys_update_name>
+            <sys_updated_by>slx.pm</sys_updated_by>
+            <sys_updated_on>2019-08-06 19:00:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Medico" name="Medico">bc9b916e130b3300959370d66144b0c6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

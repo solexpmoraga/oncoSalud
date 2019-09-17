@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_snc_oncosalud_programa</collection>
+        <condition table="x_snc_oncosalud_programa">u_string_3=En preparación^EQ<item endquery="false" field="u_string_3" goto="false" newquery="false" operator="=" or="false" value="En preparación"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_snc_oncosalud.enviar_correo_cliente</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; background-color: #fcfcfc;" data-tinymcerootblock="">&nbsp; &nbsp; &nbsp;El detalle a continuacion:</p>
+<table style="border-color: black; width: 500px;" border="1" cellspacing="3" cellpadding="3">
+<tbody style="box-sizing: border-box; overflow-wrap: break-word;">
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Motivo:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Paciente:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">DNI Paciente Nombre: ${cliente.nombre}&nbsp;DNI Paciente Apellido: ${cliente.apellido}</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">DNI:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;DNI Paciente DNI: ${cliente.dni}</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Compa&ntilde;&iacute;a de seguros:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;DNI Paciente Seguro Compa&ntilde;&iacute;a: ${cliente.seguro.compania}</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Plan de Seguro:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;DNI Paciente Seguro Nombre: ${cliente.seguro.nombre}</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">M&eacute;dico tratante:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;DNI Paciente Medico tratante Name: ${cliente.medico_tratante.name}&nbsp;DNI Paciente Medico tratante Last name: ${cliente.medico_tratante.last_name}</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Direcci&oacute;n:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Diagn&oacute;stico:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Fecha:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">Laboratorio:</td>
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;">&nbsp;</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;" colspan="2">
+<p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word;">Detalle Insumos:</p>
+</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;" colspan="2">
+<p>${mail_script:oncosalud_email_cliente}</p>
+</td>
+</tr>
+<tr style="box-sizing: border-box; overflow-wrap: break-word;">
+<td style="box-sizing: border-box; padding: 0px; overflow-wrap: break-word; overflow: hidden;" colspan="2">
+<p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word;">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; background-color: #fcfcfc;">&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Notificacion_presupuesto_cliente</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>1717160e13ae73403c7bb9b76144b004</recipient_users>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-08-02 21:04:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>296f4515138f7b00959370d66144b0dc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Notificacion_presupuesto_cliente</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sysevent_email_action_296f4515138f7b00959370d66144b0dc</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-08-02 21:56:31</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

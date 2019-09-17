@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flujo cuando se ingresa un nuevo programa se cambia el  'Estado' del programa medico en &amp;amp;amp;amp;quot;Creado&amp;amp;amp;amp;quot;</description>
+        <internal_name>oncosalud_flujo</internal_name>
+        <label_cache>[{"name":"Created_1.current.u_string_3","label":"Trigger➛Programa Record➛Estado","reference":"","reference_display":"Estado","type":"string","base_type":"string","parent_table_name":"x_snc_oncosalud_programa","column_name":"u_string_3"},{"name":"848fb6aa-f1ad-468d-ae18-3dd3a21da5f6.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"848fb6aa-f1ad-468d-ae18-3dd3a21da5f6.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"3f352c4d-c75c-486f-8d5d-6805cefec39f.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"3f352c4d-c75c-486f-8d5d-6805cefec39f.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.current","label":"Trigger➛Programa Record","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"reference","base_type":"reference"},{"name":"6c7b493d-23e7-41a7-bf78-bb677faf876c.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"6c7b493d-23e7-41a7-bf78-bb677faf876c.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.table_name","label":"Trigger➛Programa Table","reference":"x_snc_oncosalud_programa","reference_display":"Programa","type":"table_name","base_type":"table_name"},{"name":"Created_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache>
+        <latest_snapshot>e8423a78130b3b00959370d66144b06c</latest_snapshot>
+        <master_snapshot>cadfe8ca137633003c7bb9b76144b0fa</master_snapshot>
+        <name>OncoSalud Creacion Programa</name>
+        <outputs/>
+        <remote_trigger_id>92df2cca137633003c7bb9b76144b072</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>slx.pm</sys_created_by>
+        <sys_created_on>2019-07-23 16:03:43</sys_created_on>
+        <sys_id>a9dc2c4a137633003c7bb9b76144b088</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>OncoSalud Creacion Programa</sys_name>
+        <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
+        <sys_update_name>sys_hub_flow_a9dc2c4a137633003c7bb9b76144b088</sys_update_name>
+        <sys_updated_by>slx.pm</sys_updated_by>
+        <sys_updated_on>2019-08-02 16:53:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9dc2c4a137633003c7bb9b76144b088"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a9dc2c4a137633003c7bb9b76144b088"/>
+</record_update>

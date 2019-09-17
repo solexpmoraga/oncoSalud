@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Línea de Paquetización" max_length="40" name="x_snc_oncosalud_lineas_de_paquetizacion" type="collection">
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Fecha Hora" max_length="40" name="fecha_hora" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Gran Total" max_length="40" name="gran_total" type="float"/>
+        <element default="true" label="Incluido Presupuesto" max_length="40" name="incluido_presupuesto" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Paquetización" max_length="32" name="paquetizacion" reference="x_snc_oncosalud_paquetizacion" type="reference"/>
+        <element label="Programa" max_length="32" name="programa" read_only="true" reference="x_snc_oncosalud_programa" type="reference"/>
+        <element label="Total Cargos" max_length="40" name="total_cargos" type="float"/>
+        <element label="Total Descuentos" max_length="40" name="total_descuentos" type="float"/>
+        <index name="index">
+            <element name="paquetizacion"/>
+        </index>
+        <index name="index2">
+            <element name="programa"/>
+        </index>
+    </element>
+</database>
