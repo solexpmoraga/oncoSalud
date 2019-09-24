@@ -48,7 +48,7 @@
         <role_override>true</role_override>
         <roles/>
         <score_periods>-1</score_periods>
-        <scores_modified_at>2019-09-17 04:00:15</scores_modified_at>
+        <scores_modified_at>2019-09-24 04:00:14</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0e2aca35130bfb00959370d66144b0c4</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name>OncoSalud Presupuestos Pagados</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oncosalud" source="x_snc_oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Oncosalud">db62c7d8137af7403c7bb9b76144b004</sys_scope>
         <sys_update_name>pa_indicators_0e2aca35130bfb00959370d66144b0c4</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-09-17 04:00:15</sys_updated_on>
+        <sys_updated_on>2019-09-20 04:00:06</sys_updated_on>
         <type>1</type>
         <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
         <users/>
